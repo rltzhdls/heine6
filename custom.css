@@ -1,0 +1,105 @@
+.main-text .main-text2:after,.main-text1:after {
+    text-shadow: 0 0 5px #000,0 0 25px #00d8ff,0 0 20px #000,0 0 40px #000,0 0 60px #00d8ff,0 0 20px #00d8ff,0 0 98px red
+}
+
+.main-date span,.main-text p {
+    font-family: DNFForgedBlade!important
+}
+
+.main-text,.main-text p {
+    padding-left: 0;
+    margin: 0 auto;
+    text-align: center
+}
+
+.main-text {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color: #fff;
+    padding-top: 180px
+}
+
+.main-text1:after {
+    content: "리니지 3.1 물의 도시";
+    font-size: 28px
+}
+
+.main-text .main-text2:after {
+    content: "하이네 서버";
+    font-size: 85px;
+    font-weight: 700
+}
+
+@keyframes neon-flicker {
+    0% {
+        text-shadow: 0 0 10px rgba(102,37,.7),0 0 20px rgba(102,37,.7),0 0 30px rgba(102,37,.7)
+    }
+
+    100% {
+        text-shadow: 0 0 20px rgba(102,37,.7),0 0 30px rgba(102,37,.7),0 0 40px rgba(102,37,.7)
+    }
+}
+
+.main-date span {
+    background: #121212;
+    font-size: 25px;
+    color: #fff;
+    word-break: keep-all;
+    word-wrap: break-word;
+    border-radius: 15px;
+    opacity: .83;
+    padding: 10px 30px
+}
+
+.section-promotion {
+    top: -45px
+}
+
+.section-promotion .section-promotion__list {
+    height: 450px!important
+}
+
+@media screen and (max-width: 1024px) {
+    .main-text {
+        padding-top:30px
+    }
+
+    .main-text .main-text1:after {
+        font-size: 20px
+    }
+
+    .main-text .main-text2:after {
+        font-size: 50px
+    }
+
+    .main-date span {
+        font-size: 15px
+    }
+
+    .section-promotion .section-promotion__list {
+        height: 220px!important
+    }
+
+    .section-promotion {
+        top: -45px;
+        padding-top: 100px!important
+    }
+
+    #showsidebar1 img,#showsidebar2 img {
+        height: 100px!important
+    }
+
+    #showsidebar2 {
+        bottom: 22%!important
+    }
+
+    #showsidebar1 {
+        bottom: 8%!important
+    }
+
+    .modal-content {
+        width: 90%!important;
+        margin: 25% auto!important
+    }
+}
